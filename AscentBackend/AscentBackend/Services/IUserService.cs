@@ -11,10 +11,10 @@ namespace AscentBackend.Services
         Task<List<User>> GetAllTrainers();
         Task<List<User>> GetAllAccountManagers();
         Task<List<User>> GetAllInterviewers();
-        Task<User> CreateUser(User user);
-        Task<User> EditUser(User user);
-        Task<User> DeleteUser(int userId);
-        Task<User> AddInterviewPack(InterviewPack ip, int userId);
-        Task<User> RemoveInterviewPack(InterviewPack ip, int userId);
+        void CreateUser(User user);
+        void EditUser(User user);
+        void DisableUser(int userId);
+        void AddInterviewPack(InterviewPack ip, int userId);
+        void RemoveInterviewPack(InterviewPack ip, int userId);
     }
 }

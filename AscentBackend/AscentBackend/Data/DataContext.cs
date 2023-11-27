@@ -11,7 +11,8 @@ namespace AscentBackend.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=ascent;Trusted_Connection=True;TrustServerCertificate=true;");
+            // optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=ascent;Trusted_Connection=True;TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer("Server=WILLIAMZHANB322\\SQLEXPRESS;Database=ascent;Trusted_Connection=True;TrustServerCertificate=true;");
         }
 
         public DbSet<User> Users { get; set; }

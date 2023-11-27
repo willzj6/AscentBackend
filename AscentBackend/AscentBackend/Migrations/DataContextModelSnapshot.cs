@@ -40,7 +40,7 @@ namespace AscentBackend.Migrations
 
                     b.HasIndex("userId");
 
-                    b.ToTable("AssessmentCenters");
+                    b.ToTable("AssessmentCenters", (string)null);
                 });
 
             modelBuilder.Entity("AscentBackend.Models.Availability", b =>
@@ -61,7 +61,7 @@ namespace AscentBackend.Migrations
 
                     b.HasIndex("userId");
 
-                    b.ToTable("Availabilities");
+                    b.ToTable("Availabilities", (string)null);
                 });
 
             modelBuilder.Entity("AscentBackend.Models.Candidate", b =>
@@ -110,7 +110,7 @@ namespace AscentBackend.Migrations
 
                     b.HasIndex("streamName");
 
-                    b.ToTable("Candidates");
+                    b.ToTable("Candidates", (string)null);
                 });
 
             modelBuilder.Entity("AscentBackend.Models.Interview", b =>
@@ -146,7 +146,7 @@ namespace AscentBackend.Migrations
 
                     b.HasIndex("userId");
 
-                    b.ToTable("Interviews");
+                    b.ToTable("Interviews", (string)null);
                 });
 
             modelBuilder.Entity("AscentBackend.Models.InterviewPack", b =>
@@ -156,7 +156,7 @@ namespace AscentBackend.Migrations
 
                     b.HasKey("packName");
 
-                    b.ToTable("InterviewsPacks");
+                    b.ToTable("InterviewsPacks", (string)null);
                 });
 
             modelBuilder.Entity("AscentBackend.Models.Stream", b =>
@@ -166,7 +166,7 @@ namespace AscentBackend.Migrations
 
                     b.HasKey("streamName");
 
-                    b.ToTable("Streams");
+                    b.ToTable("Streams", (string)null);
                 });
 
             modelBuilder.Entity("AscentBackend.Models.User", b =>
@@ -206,7 +206,7 @@ namespace AscentBackend.Migrations
 
                     b.HasKey("userId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("InterviewPackStream", b =>
@@ -221,7 +221,7 @@ namespace AscentBackend.Migrations
 
                     b.HasIndex("streamsstreamName");
 
-                    b.ToTable("InterviewPackStream");
+                    b.ToTable("InterviewPackStream", (string)null);
                 });
 
             modelBuilder.Entity("InterviewPackUser", b =>
@@ -236,7 +236,7 @@ namespace AscentBackend.Migrations
 
                     b.HasIndex("usersuserId");
 
-                    b.ToTable("InterviewPackUser");
+                    b.ToTable("InterviewPackUser", (string)null);
                 });
 
             modelBuilder.Entity("AscentBackend.Models.AssessmentCenter", b =>
