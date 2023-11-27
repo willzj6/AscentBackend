@@ -67,9 +67,10 @@ namespace AscentBackend.Controllers
         }
 
         [HttpPut]
-        public void EditUser(User user)
+        public async Task<ActionResult<User>> EditUser(User user)
         {
-            _userService.EditUser(user);
+            await _userService.EditUser(user);
+            return Ok();
         }
 
         [HttpDelete("{id}")]

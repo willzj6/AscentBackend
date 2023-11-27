@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\williamzhang\\Source\\Repos\\AscentBackend\\AscentBackend\\AscentBackend\\AscentBackend.csproj": {}
+    "C:\\Users\\William\\source\\repos\\AscentBackend\\AscentBackend\\AscentBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\williamzhang\\Source\\Repos\\AscentBackend\\AscentBackend\\AscentBackend\\AscentBackend.csproj": {
+    "C:\\Users\\William\\source\\repos\\AscentBackend\\AscentBackend\\AscentBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\williamzhang\\Source\\Repos\\AscentBackend\\AscentBackend\\AscentBackend\\AscentBackend.csproj",
+        "projectUniqueName": "C:\\Users\\William\\source\\repos\\AscentBackend\\AscentBackend\\AscentBackend.csproj",
         "projectName": "AscentBackend",
-        "projectPath": "C:\\Users\\williamzhang\\Source\\Repos\\AscentBackend\\AscentBackend\\AscentBackend\\AscentBackend.csproj",
-        "packagesPath": "C:\\Users\\williamzhang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\williamzhang\\Source\\Repos\\AscentBackend\\AscentBackend\\AscentBackend\\obj\\",
+        "projectPath": "C:\\Users\\William\\source\\repos\\AscentBackend\\AscentBackend\\AscentBackend.csproj",
+        "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\William\\source\\repos\\AscentBackend\\AscentBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\williamzhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -275,3 +275,8 @@ C:\Users\williamzhang\Source\Repos\AscentBackend\AscentBackend\AscentBackend\bin
 C:\Users\williamzhang\Source\Repos\AscentBackend\AscentBackend\AscentBackend\bin\Debug\net8.0\System.Web.Http.dll
 C:\Users\williamzhang\Source\Repos\AscentBackend\AscentBackend\AscentBackend\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\williamzhang\Source\Repos\AscentBackend\AscentBackend\AscentBackend\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\William\source\repos\AscentBackend\AscentBackend\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\William\source\repos\AscentBackend\AscentBackend\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\William\source\repos\AscentBackend\AscentBackend\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\William\source\repos\AscentBackend\AscentBackend\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\William\source\repos\AscentBackend\AscentBackend\obj\Debug\net8.0\AscentBackend.sourcelink.json

@@ -59,22 +59,22 @@ namespace AscentBackend.Services
             _context.SaveChanges();
         }
 
-        public async void EditUser(User user)
+        public async Task<User> EditUser(User user)
         {
-            //var foundUser = await GetUserById(user.userId);
             var foundUser = await _context.Users.FindAsync(user.userId);
             if (foundUser == null)
             {
                 throw new NotFoundException("User not found");
             }
             foundUser.firstName = user.firstName;
-            foundUser.lastName  = user.lastName;
+            foundUser.lastName = user.lastName;
             foundUser.password = user.password;
-            foundUser.contact   = user.contact;
-            foundUser.role = user.role;
             foundUser.email = user.email;
+            foundUser.role = user.role;
+            foundUser.contact = user.contact;
             _context.Update(foundUser);
             await _context.SaveChangesAsync();
+            return user;
         }
 
         public async Task<List<User>> GetAllAccountManagers()

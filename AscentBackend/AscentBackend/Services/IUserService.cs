@@ -12,7 +12,7 @@ namespace AscentBackend.Services
         Task<List<User>> GetAllAccountManagers();
         Task<List<User>> GetAllInterviewers();
         void CreateUser(User user);
-        void EditUser(User user);
+        Task<User> EditUser(User user);
         void DisableUser(int userId);
         void AddInterviewPack(InterviewPack ip, int userId);
         void RemoveInterviewPack(InterviewPack ip, int userId);

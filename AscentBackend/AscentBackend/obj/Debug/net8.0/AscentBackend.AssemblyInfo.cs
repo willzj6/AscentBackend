@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AscentBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c71ea721ce5bb34f58c25ab436800c5d649c2dec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50c8804e657739d7def7c9c3c7cbbd752e675766")]
 [assembly: System.Reflection.AssemblyProductAttribute("AscentBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AscentBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
